@@ -1,0 +1,13 @@
+{
+  "testId": "001",
+  "testSuiteName": "Register",
+  "testCaseName": "RegisterUser",
+  "testCaseDescription": "Register User in system",
+  "data": [
+    {
+      "textInput": "Harshal Shewale",
+      "password": "Google@2023",
+      "textarea": "This is a text area where you can write anything you like"
+    }
+  ]
+}
