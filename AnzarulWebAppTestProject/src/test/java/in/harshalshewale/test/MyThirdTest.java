@@ -30,7 +30,7 @@ public class MyThirdTest extends BaseTest {
 
 		System.out.println("Im inside my third test of Selenium");
 
-		String testDataFile = JsonUtil.readTestDataJsonFile("MySecondTest.json");
+		String testDataFile = JsonUtil.readTestDataJsonFile("MyFirstTest.json");
 
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--remote-allow-origins=*");
