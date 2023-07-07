@@ -1,0 +1,97 @@
+2023-07-04 10:52:45 INFO  DatabaseUtil:29 - Test Environment: dev
+2023-07-04 10:57:27 INFO  DatabaseUtil:29 - Test Environment: dev
+2023-07-04 10:57:27 INFO  DatabaseUtil:40 - Test Scenario JSON URL: https://script.google.com/macros/s/AKfycbz5njC-TgjZTvq1zU0tvgOlcmFr28vEi69xOEM3KNlCXVlFt7Be65RvaxV_aevGSnbi/exec
+2023-07-04 10:57:30 INFO  DatabaseUtil:46 - Test Scenario JSON: {"data":[{"TestSuiteName":"Register","TestCaseName":"MyFirstTest","TestId":1,"Execute":"No"},{"TestSuiteName":"Register","TestCaseName":"MySecondTest","TestId":2,"Execute":"No"},{"TestSuiteName":"Register","TestCaseName":"MyThirdTest","TestId":3,"Execute":"no"},{"TestSuiteName":"Login","TestCaseName":"Login001","TestId":4,"Execute":"No"}]}
+2023-07-04 10:57:30 INFO  DatabaseUtil:54 - Total Number Of Test Cases: 4
+2023-07-04 10:57:30 INFO  DatabaseUtil:68 - Tests Cases Stored in HashMap:
+ {Login001=No, MyThirdTest=no, MyFirstTest=No, MySecondTest=No}
+2023-07-04 21:00:08 INFO  DatabaseUtil:33 - Test Environment: dev
+2023-07-04 21:00:08 INFO  DatabaseUtil:44 - Test Scenario JSON URL: null
+2023-07-04 21:02:12 INFO  DatabaseUtil:39 - Test Environment: dev
+2023-07-04 21:02:12 INFO  DatabaseUtil:50 - Test Scenario JSON URL: null
+2023-07-04 21:36:20 INFO  DatabaseUtil:29 - Test Environment: dev
+2023-07-04 21:36:20 INFO  DatabaseUtil:40 - Test Scenario JSON URL: https://script.google.com/macros/s/AKfycbz5njC-TgjZTvq1zU0tvgOlcmFr28vEi69xOEM3KNlCXVlFt7Be65RvaxV_aevGSnbi/exec
+2023-07-04 21:36:23 INFO  DatabaseUtil:46 - Test Scenario JSON: {"data":[{"TestSuiteName":"Register","TestCaseName":"MyFirstTest","TestId":1,"Execute":"Yes"},{"TestSuiteName":"Register","TestCaseName":"MySecondTest","TestId":2,"Execute":"No"},{"TestSuiteName":"Register","TestCaseName":"MyThirdTest","TestId":3,"Execute":"No"},{"TestSuiteName":"Login","TestCaseName":"Login001","TestId":4,"Execute":"No"}]}
+2023-07-04 21:36:23 INFO  DatabaseUtil:53 - Total Number Of Test Cases: 4
+2023-07-04 21:36:23 INFO  DatabaseUtil:67 - Tests Cases Stored in HashMap:
+ {Login001=No, MyThirdTest=No, MyFirstTest=Yes, MySecondTest=No}
+2023-07-04 21:36:23 INFO  DatabaseUtil:75 - Final Test Cases To Run:
+ MyFirstTest
+2023-07-04 21:36:33 INFO  DatabaseUtil:85 - Current Executing Test:
+ Test Case Name: class in.harshalshewale.test.MyFirstTest
+2023-07-04 22:00:43 INFO  DatabaseUtil:33 - Test Environment: dev
+2023-07-04 22:00:43 INFO  DatabaseUtil:44 - Test Scenario JSON URL: https://script.google.com/macros/s/AKfycbz5njC-TgjZTvq1zU0tvgOlcmFr28vEi69xOEM3KNlCXVlFt7Be65RvaxV_aevGSnbi/exec
+2023-07-04 22:00:46 INFO  DatabaseUtil:50 - Test Scenario JSON: {"data":[{"TestSuiteName":"Register","TestCaseName":"MyFirstTest","TestId":1,"Execute":"Yes"},{"TestSuiteName":"Register","TestCaseName":"MySecondTest","TestId":2,"Execute":"No"},{"TestSuiteName":"Register","TestCaseName":"MyThirdTest","TestId":3,"Execute":"No"},{"TestSuiteName":"Login","TestCaseName":"Login001","TestId":4,"Execute":"No"}]}
+2023-07-04 22:00:46 INFO  DatabaseUtil:57 - Total Number Of Test Cases: 4
+2023-07-04 22:00:46 INFO  DatabaseUtil:73 - Tests Cases Stored in HashMap:
+ {Login001=No, MyThirdTest=No, MyFirstTest=Yes, MySecondTest=No}
+2023-07-04 22:00:46 INFO  DatabaseUtil:81 - Current Executing Test Case :
+ Test ID:  4 Test Suite: Login001 Test Case: Login001
+2023-07-04 22:01:21 INFO  DatabaseUtil:33 - Test Environment: dev
+2023-07-04 22:01:21 INFO  DatabaseUtil:44 - Test Scenario JSON URL: https://script.google.com/macros/s/AKfycbz5njC-TgjZTvq1zU0tvgOlcmFr28vEi69xOEM3KNlCXVlFt7Be65RvaxV_aevGSnbi/exec
+2023-07-04 22:01:24 INFO  DatabaseUtil:50 - Test Scenario JSON: {"data":[{"TestSuiteName":"Register","TestCaseName":"MyFirstTest","TestId":1,"Execute":"Yes"},{"TestSuiteName":"Register","TestCaseName":"MySecondTest","TestId":2,"Execute":"No"},{"TestSuiteName":"Register","TestCaseName":"MyThirdTest","TestId":3,"Execute":"No"},{"TestSuiteName":"Login","TestCaseName":"Login001","TestId":4,"Execute":"No"}]}
+2023-07-04 22:01:24 INFO  DatabaseUtil:57 - Total Number Of Test Cases: 4
+2023-07-04 22:01:24 INFO  DatabaseUtil:73 - Tests Cases Stored in HashMap: {Login001=No, MyThirdTest=No, MyFirstTest=Yes, MySecondTest=No}
+2023-07-04 22:01:24 INFO  DatabaseUtil:81 - Current Executing Test Case : Test ID:  4 Test Suite: Login001 Test Case: Login001
+2023-07-04 22:02:43 INFO  DatabaseUtil:33 - Test Environment: dev
+2023-07-04 22:02:43 INFO  DatabaseUtil:44 - Test Scenario JSON URL: https://script.google.com/macros/s/AKfycbz5njC-TgjZTvq1zU0tvgOlcmFr28vEi69xOEM3KNlCXVlFt7Be65RvaxV_aevGSnbi/exec
+2023-07-04 22:02:46 INFO  DatabaseUtil:50 - Test Scenario JSON: {"data":[{"TestSuiteName":"Register","TestCaseName":"MyFirstTest","TestId":1,"Execute":"Yes"},{"TestSuiteName":"Register","TestCaseName":"MySecondTest","TestId":2,"Execute":"No"},{"TestSuiteName":"Register","TestCaseName":"MyThirdTest","TestId":3,"Execute":"No"},{"TestSuiteName":"Login","TestCaseName":"Login001","TestId":4,"Execute":"No"}]}
+2023-07-04 22:02:46 INFO  DatabaseUtil:57 - Total Number Of Test Cases: 4
+2023-07-04 22:02:46 INFO  DatabaseUtil:73 - Tests Cases Stored in HashMap: {Login001=No, MyThirdTest=No, MyFirstTest=Yes, MySecondTest=No}
+2023-07-04 22:02:46 INFO  DatabaseUtil:81 - Current Executing Test Case : Test ID: 4|| Test Suite: Login001||Test Case: Login001
+2023-07-04 22:03:15 INFO  DatabaseUtil:33 - Test Environment: dev
+2023-07-04 22:03:15 INFO  DatabaseUtil:44 - Test Scenario JSON URL: https://script.google.com/macros/s/AKfycbz5njC-TgjZTvq1zU0tvgOlcmFr28vEi69xOEM3KNlCXVlFt7Be65RvaxV_aevGSnbi/exec
+2023-07-04 22:03:18 INFO  DatabaseUtil:50 - Test Scenario JSON: {"data":[{"TestSuiteName":"Register","TestCaseName":"MyFirstTest","TestId":1,"Execute":"Yes"},{"TestSuiteName":"Register","TestCaseName":"MySecondTest","TestId":2,"Execute":"No"},{"TestSuiteName":"Register","TestCaseName":"MyThirdTest","TestId":3,"Execute":"No"},{"TestSuiteName":"Login","TestCaseName":"Login001","TestId":4,"Execute":"No"}]}
+2023-07-04 22:03:18 INFO  DatabaseUtil:57 - Total Number Of Test Cases: 4
+2023-07-04 22:03:18 INFO  DatabaseUtil:73 - Tests Cases Stored in HashMap: {Login001=No, MyThirdTest=No, MyFirstTest=Yes, MySecondTest=No}
+2023-07-04 22:03:18 INFO  DatabaseUtil:81 - Current Executing Test Case : Test ID: 4 || Test Suite: Login001 || Test Case: Login001
+2023-07-05 12:14:17 INFO  DatabaseUtil:37 - Test Environment: dev
+2023-07-05 12:14:17 INFO  DatabaseUtil:48 - Test Scenario JSON URL: https://script.google.com/macros/s/AKfycbz5njC-TgjZTvq1zU0tvgOlcmFr28vEi69xOEM3KNlCXVlFt7Be65RvaxV_aevGSnbi/exec
+2023-07-05 12:14:20 INFO  DatabaseUtil:54 - Test Scenario JSON: {"data":[{"TestSuiteName":"Register","TestCaseName":"MyFirstTest","TestId":1,"Execute":"Yes"},{"TestSuiteName":"Register","TestCaseName":"MySecondTest","TestId":2,"Execute":"No"},{"TestSuiteName":"Register","TestCaseName":"MyThirdTest","TestId":3,"Execute":"No"},{"TestSuiteName":"Login","TestCaseName":"Login001","TestId":4,"Execute":"No"}]}
+2023-07-05 12:14:20 INFO  DatabaseUtil:61 - Total Number Of Test Cases: 4
+2023-07-05 12:14:20 INFO  DatabaseUtil:84 - Tests Cases Stored in HashMap: {{1=1, MyFirstTest=MyFirstTest, testSuiteName=Register}=Yes, {2=2, testSuiteName=Register, MySecondTest=MySecondTest}=No, {MyThirdTest=MyThirdTest, 3=3, testSuiteName=Register}=No, {Login001=Login001, 4=4, testSuiteName=Login}=No}
+2023-07-05 12:14:20 INFO  DatabaseUtil:94 - Current Executing Test Case : Test ID: null || Test Suite: Register || Test Case: null
+2023-07-05 12:23:14 INFO  DatabaseUtil:37 - Test Environment: dev
+2023-07-05 12:23:14 INFO  DatabaseUtil:48 - Test Scenario JSON URL: https://script.google.com/macros/s/AKfycbz5njC-TgjZTvq1zU0tvgOlcmFr28vEi69xOEM3KNlCXVlFt7Be65RvaxV_aevGSnbi/exec
+2023-07-05 12:23:17 INFO  DatabaseUtil:54 - Test Scenario JSON: {"data":[{"TestSuiteName":"Register","TestCaseName":"MyFirstTest","TestId":1,"Execute":"Yes"},{"TestSuiteName":"Register","TestCaseName":"MySecondTest","TestId":2,"Execute":"No"},{"TestSuiteName":"Register","TestCaseName":"MyThirdTest","TestId":3,"Execute":"No"},{"TestSuiteName":"Login","TestCaseName":"Login001","TestId":4,"Execute":"No"}]}
+2023-07-05 12:23:17 INFO  DatabaseUtil:61 - Total Number Of Test Cases: 4
+2023-07-05 12:23:17 INFO  DatabaseUtil:83 - Tests Cases Stored in HashMap: {{testSuiteName=Register, testId=3, testCaseName=MyThirdTest}=No, {testSuiteName=Register, testId=2, testCaseName=MySecondTest}=No, {testSuiteName=Register, testId=1, testCaseName=MyFirstTest}=Yes, {testSuiteName=Login, testId=4, testCaseName=Login001}=No}
+2023-07-05 12:23:17 INFO  DatabaseUtil:93 - Current Executing Test Case : Test ID: 1 || Test Suite: Register || Test Case: MyFirstTest
+2023-07-05 13:21:39 INFO  DatabaseUtil:37 - Test Environment: dev
+2023-07-05 13:21:39 INFO  DatabaseUtil:48 - Test Scenario JSON URL: https://script.google.com/macros/s/AKfycbz5njC-TgjZTvq1zU0tvgOlcmFr28vEi69xOEM3KNlCXVlFt7Be65RvaxV_aevGSnbi/exec
+2023-07-05 13:21:42 INFO  DatabaseUtil:54 - Test Scenario JSON: {"data":[{"TestSuiteName":"Register","TestCaseName":"MyFirstTest","TestId":1,"Execute":"Yes"},{"TestSuiteName":"Register","TestCaseName":"MySecondTest","TestId":2,"Execute":"No"},{"TestSuiteName":"Register","TestCaseName":"MyThirdTest","TestId":3,"Execute":"No"},{"TestSuiteName":"Login","TestCaseName":"Login001","TestId":4,"Execute":"No"}]}
+2023-07-05 13:21:42 INFO  DatabaseUtil:61 - Total Number Of Test Cases: 4
+2023-07-05 13:21:42 INFO  DatabaseUtil:83 - Tests Cases Stored in HashMap: {{testSuiteName=Register, testId=3, testCaseName=MyThirdTest}=No, {testSuiteName=Register, testId=2, testCaseName=MySecondTest}=No, {testSuiteName=Register, testId=1, testCaseName=MyFirstTest}=Yes, {testSuiteName=Login, testId=4, testCaseName=Login001}=No}
+2023-07-05 13:21:42 INFO  DatabaseUtil:93 - Current Executing Test Case : Test ID: 1 || Test Suite: Register || Test Case: MyFirstTest
+2023-07-05 13:21:53 INFO  DatabaseUtil:56 - Writting API Requests Responses to Database
+2023-07-06 12:35:34 INFO  DatabaseUtil:37 - Test Environment: dev
+2023-07-06 12:35:34 INFO  DatabaseUtil:48 - Test Scenario JSON URL: https://script.google.com/macros/s/AKfycbz5njC-TgjZTvq1zU0tvgOlcmFr28vEi69xOEM3KNlCXVlFt7Be65RvaxV_aevGSnbi/exec
+2023-07-06 12:35:37 INFO  DatabaseUtil:54 - Test Scenario JSON: {"data":[{"TestSuiteName":"Register","TestCaseName":"MyFirstTest","TestId":1,"Execute":"Yes"},{"TestSuiteName":"Register","TestCaseName":"MySecondTest","TestId":2,"Execute":"No"},{"TestSuiteName":"Register","TestCaseName":"MyThirdTest","TestId":3,"Execute":"No"},{"TestSuiteName":"Login","TestCaseName":"Login001","TestId":4,"Execute":"No"}]}
+2023-07-06 12:35:37 INFO  DatabaseUtil:61 - Total Number Of Test Cases: 4
+2023-07-06 12:35:37 INFO  DatabaseUtil:83 - Tests Cases Stored in HashMap: {{testSuiteName=Register, testId=3, testCaseName=MyThirdTest}=No, {testSuiteName=Register, testId=2, testCaseName=MySecondTest}=No, {testSuiteName=Register, testId=1, testCaseName=MyFirstTest}=Yes, {testSuiteName=Login, testId=4, testCaseName=Login001}=No}
+2023-07-06 12:35:37 INFO  DatabaseUtil:93 - Current Executing Test Case : Test ID: 1 || Test Suite: Register || Test Case: MyFirstTest
+2023-07-06 12:35:37 INFO  MyFirstTest:31 - Executing Test : MyFirstTest
+2023-07-06 12:35:48 INFO  DatabaseUtil:56 - Writting API Requests Responses to Database
+2023-07-06 12:52:32 INFO  DatabaseUtil:37 - Test Environment: dev
+2023-07-06 12:52:32 INFO  DatabaseUtil:48 - Test Scenario JSON URL: https://script.google.com/macros/s/AKfycbz5njC-TgjZTvq1zU0tvgOlcmFr28vEi69xOEM3KNlCXVlFt7Be65RvaxV_aevGSnbi/exec
+2023-07-06 12:52:35 INFO  DatabaseUtil:54 - Test Scenario JSON: {"data":[{"TestSuiteName":"Register","TestCaseName":"MyFirstTest","TestId":1,"Execute":"Yes"},{"TestSuiteName":"Register","TestCaseName":"MySecondTest","TestId":2,"Execute":"No"},{"TestSuiteName":"Register","TestCaseName":"MyThirdTest","TestId":3,"Execute":"No"},{"TestSuiteName":"Login","TestCaseName":"Login001","TestId":4,"Execute":"No"}]}
+2023-07-06 12:52:35 INFO  DatabaseUtil:61 - Total Number Of Test Cases: 4
+2023-07-06 12:52:35 INFO  DatabaseUtil:83 - Tests Cases Stored in HashMap: {{testSuiteName=Register, testId=3, testCaseName=MyThirdTest}=No, {testSuiteName=Register, testId=2, testCaseName=MySecondTest}=No, {testSuiteName=Register, testId=1, testCaseName=MyFirstTest}=Yes, {testSuiteName=Login, testId=4, testCaseName=Login001}=No}
+2023-07-06 12:52:35 INFO  DatabaseUtil:93 - Current Executing Test Case : Test ID: 1 || Test Suite: Register || Test Case: MyFirstTest
+2023-07-06 12:52:35 INFO  MyFirstTest:31 - Executing Test : MyFirstTest
+2023-07-06 12:52:46 INFO  DatabaseUtil:56 - Writting API Requests Responses to Database
+2023-07-06 12:54:02 INFO  DatabaseUtil:37 - Test Environment: dev
+2023-07-06 12:54:02 INFO  DatabaseUtil:48 - Test Scenario JSON URL: https://script.google.com/macros/s/AKfycbz5njC-TgjZTvq1zU0tvgOlcmFr28vEi69xOEM3KNlCXVlFt7Be65RvaxV_aevGSnbi/exec
+2023-07-06 12:54:05 INFO  DatabaseUtil:54 - Test Scenario JSON: {"data":[{"TestSuiteName":"Register","TestCaseName":"MyFirstTest","TestId":1,"Execute":"Yes"},{"TestSuiteName":"Register","TestCaseName":"MySecondTest","TestId":2,"Execute":"No"},{"TestSuiteName":"Register","TestCaseName":"MyThirdTest","TestId":3,"Execute":"No"},{"TestSuiteName":"Login","TestCaseName":"Login001","TestId":4,"Execute":"No"}]}
+2023-07-06 12:54:05 INFO  DatabaseUtil:61 - Total Number Of Test Cases: 4
+2023-07-06 12:54:05 INFO  DatabaseUtil:83 - Tests Cases Stored in HashMap: {{testSuiteName=Register, testId=3, testCaseName=MyThirdTest}=No, {testSuiteName=Register, testId=2, testCaseName=MySecondTest}=No, {testSuiteName=Register, testId=1, testCaseName=MyFirstTest}=Yes, {testSuiteName=Login, testId=4, testCaseName=Login001}=No}
+2023-07-06 12:54:05 INFO  DatabaseUtil:93 - Current Executing Test Case : Test ID: 1 || Test Suite: Register || Test Case: MyFirstTest
+2023-07-06 12:54:05 INFO  MyFirstTest:33 - Executing Test : MyFirstTest
+2023-07-06 12:58:17 INFO  DatabaseUtil:37 - Test Environment: dev
+2023-07-06 12:58:17 INFO  DatabaseUtil:48 - Test Scenario JSON URL: https://script.google.com/macros/s/AKfycbz5njC-TgjZTvq1zU0tvgOlcmFr28vEi69xOEM3KNlCXVlFt7Be65RvaxV_aevGSnbi/exec
+2023-07-06 12:58:19 INFO  DatabaseUtil:54 - Test Scenario JSON: {"data":[{"TestSuiteName":"Register","TestCaseName":"MyFirstTest","TestId":1,"Execute":"Yes"},{"TestSuiteName":"Register","TestCaseName":"MySecondTest","TestId":2,"Execute":"No"},{"TestSuiteName":"Register","TestCaseName":"MyThirdTest","TestId":3,"Execute":"No"},{"TestSuiteName":"Login","TestCaseName":"Login001","TestId":4,"Execute":"No"}]}
+2023-07-06 12:58:19 INFO  DatabaseUtil:61 - Total Number Of Test Cases: 4
+2023-07-06 12:58:19 INFO  DatabaseUtil:83 - Tests Cases Stored in HashMap: {{testSuiteName=Register, testId=3, testCaseName=MyThirdTest}=No, {testSuiteName=Register, testId=2, testCaseName=MySecondTest}=No, {testSuiteName=Register, testId=1, testCaseName=MyFirstTest}=Yes, {testSuiteName=Login, testId=4, testCaseName=Login001}=No}
+2023-07-06 12:58:19 INFO  DatabaseUtil:93 - Current Executing Test Case : Test ID: 1 || Test Suite: Register || Test Case: MyFirstTest
+2023-07-06 12:58:19 INFO  MyFirstTest:33 - Executing Test : MyFirstTest
+2023-07-06 12:58:29 INFO  DatabaseUtil:56 - Writting API Requests Responses to Database

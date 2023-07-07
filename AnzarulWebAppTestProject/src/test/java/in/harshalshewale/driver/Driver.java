@@ -1,10 +1,23 @@
 package in.harshalshewale.driver;
 
 import java.lang.reflect.Method;
+import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.apache.log4j.Logger;
+
+import in.harshalshewale.util.DatabaseUtil;
+import in.harshalshewale.util.FileUtil;
+import in.harshalshewale.util.JsonUtil;
+
 public class Driver {
+
+	private static final Logger LOGGER = Logger.getLogger(DatabaseUtil.class);
+
+	public static String currentTestSuite;
+	public static String currentTestCase;
+	public static String currentTestId;
 
 	public static void main(String[] args) throws Exception {
 		executeTests();
@@ -12,22 +25,76 @@ public class Driver {
 
 	public static void executeTests() throws Exception {
 
-		Map<String, String> testClassesToRun = new HashMap<String, String>();
-		testClassesToRun.put("MyFirstTest", "yes");
-		testClassesToRun.put("MySecondTest", "No");
-		testClassesToRun.put("MyThirdTest", "Yes");
+		// Read Test Environment
+		String TestSecnarioURL = null;
+		String environment = null;
+		String testSuiteName = null;
+		String testCaseName = null;
+		String testId = null;
+		String executeMode = null;
 
-		for (Map.Entry<String, String> classToRun : testClassesToRun.entrySet()) {
+		environment = FileUtil.readPropertyFile("test", "environment");
+		LOGGER.info("Test Environment: " + environment);
 
-			if (classToRun.getValue().equalsIgnoreCase("yes")) {
+		if (environment.equalsIgnoreCase("dev")) {
 
-				String className = classToRun.getKey();
+			TestSecnarioURL = FileUtil.readPropertyFile("test", "test_scenarios_dev");
 
-				System.out.println("className from hashmap :  " + className);
+		} else if (environment.equalsIgnoreCase("uat")) {
+
+			TestSecnarioURL = FileUtil.readPropertyFile("test", "test_scenarios_uat");
+		}
+
+		LOGGER.info("Test Scenario JSON URL: " + TestSecnarioURL);
+
+		URL url = new URL(TestSecnarioURL);
+
+		String testSecnarioJson = JsonUtil.readJsonFromURL(url);
+
+		LOGGER.info("Test Scenario JSON: " + testSecnarioJson);
+
+		// Parse JSON and put TestCaseName and Execute Mode to HashMap
+
+		String totalNumberOfTestCases = JsonUtil.getJsonValue(testSecnarioJson, "$.data.length()");
+		int totalNumberOfTestCasesInInt = Integer.parseInt(totalNumberOfTestCases);
+
+		LOGGER.info("Total Number Of Test Cases: " + totalNumberOfTestCasesInInt);
+
+		Map<Map<String, String>, String> tests = new HashMap<Map<String, String>, String>();
+
+		for (int i = 0; i < totalNumberOfTestCasesInInt; i++) {
+
+			testSuiteName = JsonUtil.getJsonValue(testSecnarioJson, "$.data[" + i + "].TestSuiteName");
+			testCaseName = JsonUtil.getJsonValue(testSecnarioJson, "$.data[" + i + "].TestCaseName");
+			testId = JsonUtil.getJsonValue(testSecnarioJson, "$.data[" + i + "].TestId");
+			executeMode = JsonUtil.getJsonValue(testSecnarioJson, "$.data[" + i + "].Execute");
+
+			Map<String, String> testDetails = new HashMap<String, String>();
+			testDetails.put("testSuiteName", testSuiteName);
+			testDetails.put("testCaseName", testCaseName);
+			testDetails.put("testId", testId);
+
+			tests.put(testDetails, executeMode);
+
+		}
+
+		// Iterate over HashMap and call tests which has execute mode "Yes"
+
+		LOGGER.info("Tests Cases Stored in HashMap: " + tests);
+
+		for (Map.Entry<Map<String, String>, String> testToRun : tests.entrySet()) {
+
+			if (testToRun.getValue().equalsIgnoreCase("yes")) {
+
+				currentTestSuite = testToRun.getKey().get("testSuiteName");
+				currentTestCase = testToRun.getKey().get("testCaseName");
+				currentTestId = testToRun.getKey().get("testId");
+
+				LOGGER.info("Current Executing Test Case : " + "Test ID: " + currentTestId + " || " + "Test Suite: "
+						+ currentTestSuite + " || " + "Test Case: " + currentTestCase);
 
 				// java reflection
-
-				Class<?> clazz = Class.forName("in.harshalshewale.test." + className);
+				Class<?> clazz = Class.forName("in.harshalshewale.test." + currentTestCase);
 				System.out.println("Class Name : " + clazz);
 				Method method = clazz.getDeclaredMethod("runTest");
 				Object object = clazz.getDeclaredConstructor().newInstance();
