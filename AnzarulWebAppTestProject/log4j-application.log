@@ -95,3 +95,179 @@
 2023-07-06 12:58:19 INFO  DatabaseUtil:93 - Current Executing Test Case : Test ID: 1 || Test Suite: Register || Test Case: MyFirstTest
 2023-07-06 12:58:19 INFO  MyFirstTest:33 - Executing Test : MyFirstTest
 2023-07-06 12:58:29 INFO  DatabaseUtil:56 - Writting API Requests Responses to Database
+2023-07-09 19:05:28 INFO  DatabaseUtil:37 - Test Environment: dev
+2023-07-09 19:05:28 INFO  DatabaseUtil:48 - Test Scenario JSON URL: https://script.google.com/macros/s/AKfycbz5njC-TgjZTvq1zU0tvgOlcmFr28vEi69xOEM3KNlCXVlFt7Be65RvaxV_aevGSnbi/exec
+2023-07-09 19:05:31 INFO  DatabaseUtil:54 - Test Scenario JSON: {"data":[{"TestSuiteName":"Register","TestCaseName":"MyFirstTest","TestId":1,"Execute":"Yes"},{"TestSuiteName":"Register","TestCaseName":"MySecondTest","TestId":2,"Execute":"No"},{"TestSuiteName":"Register","TestCaseName":"MyThirdTest","TestId":3,"Execute":"No"},{"TestSuiteName":"Login","TestCaseName":"Login001","TestId":4,"Execute":"No"}]}
+2023-07-09 19:05:31 INFO  DatabaseUtil:61 - Total Number Of Test Cases: 4
+2023-07-09 19:05:31 INFO  DatabaseUtil:83 - Tests Cases Stored in HashMap: {{testSuiteName=Register, testId=3, testCaseName=MyThirdTest}=No, {testSuiteName=Register, testId=2, testCaseName=MySecondTest}=No, {testSuiteName=Register, testId=1, testCaseName=MyFirstTest}=Yes, {testSuiteName=Login, testId=4, testCaseName=Login001}=No}
+2023-07-09 19:05:31 INFO  DatabaseUtil:93 - Current Executing Test Case : Test ID: 1 || Test Suite: Register || Test Case: MyFirstTest
+2023-07-09 19:05:31 INFO  MyFirstTest:34 - Executing Test : MyFirstTest
+2023-07-09 19:05:43 INFO  DatabaseUtil:56 - Writting API Requests Responses to Database
+2023-07-09 19:05:43 ERROR DatabaseUtil:70 - Error occured while writing data to Database Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2023-07-09 19:06:45 INFO  DatabaseUtil:37 - Test Environment: dev
+2023-07-09 19:06:45 INFO  DatabaseUtil:48 - Test Scenario JSON URL: https://script.google.com/macros/s/AKfycbz5njC-TgjZTvq1zU0tvgOlcmFr28vEi69xOEM3KNlCXVlFt7Be65RvaxV_aevGSnbi/exec
+2023-07-09 19:06:47 INFO  DatabaseUtil:54 - Test Scenario JSON: {"data":[{"TestSuiteName":"Register","TestCaseName":"MyFirstTest","TestId":1,"Execute":"Yes"},{"TestSuiteName":"Register","TestCaseName":"MySecondTest","TestId":2,"Execute":"No"},{"TestSuiteName":"Register","TestCaseName":"MyThirdTest","TestId":3,"Execute":"No"},{"TestSuiteName":"Login","TestCaseName":"Login001","TestId":4,"Execute":"No"}]}
+2023-07-09 19:06:47 INFO  DatabaseUtil:61 - Total Number Of Test Cases: 4
+2023-07-09 19:06:47 INFO  DatabaseUtil:83 - Tests Cases Stored in HashMap: {{testSuiteName=Register, testId=3, testCaseName=MyThirdTest}=No, {testSuiteName=Register, testId=2, testCaseName=MySecondTest}=No, {testSuiteName=Register, testId=1, testCaseName=MyFirstTest}=Yes, {testSuiteName=Login, testId=4, testCaseName=Login001}=No}
+2023-07-09 19:06:47 INFO  DatabaseUtil:93 - Current Executing Test Case : Test ID: 1 || Test Suite: Register || Test Case: MyFirstTest
+2023-07-09 19:06:47 INFO  MyFirstTest:34 - Executing Test : MyFirstTest
+2023-07-09 19:06:57 INFO  DatabaseUtil:56 - Writting API Requests Responses to Database
+2023-07-09 19:06:57 ERROR DatabaseUtil:70 - Error occured while writing data to Database Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2023-07-09 19:17:26 INFO  DatabaseUtil:37 - Test Environment: dev
+2023-07-09 19:17:26 INFO  DatabaseUtil:48 - Test Scenario JSON URL: https://script.google.com/macros/s/AKfycbz5njC-TgjZTvq1zU0tvgOlcmFr28vEi69xOEM3KNlCXVlFt7Be65RvaxV_aevGSnbi/exec
+2023-07-09 19:17:29 INFO  DatabaseUtil:54 - Test Scenario JSON: {"data":[{"TestSuiteName":"Register","TestCaseName":"MyFirstTest","TestId":1,"Execute":"Yes"},{"TestSuiteName":"Register","TestCaseName":"MySecondTest","TestId":2,"Execute":"No"},{"TestSuiteName":"Register","TestCaseName":"MyThirdTest","TestId":3,"Execute":"No"},{"TestSuiteName":"Login","TestCaseName":"Login001","TestId":4,"Execute":"No"}]}
+2023-07-09 19:17:29 INFO  DatabaseUtil:61 - Total Number Of Test Cases: 4
+2023-07-09 19:17:29 INFO  DatabaseUtil:83 - Tests Cases Stored in HashMap: {{testSuiteName=Register, testId=3, testCaseName=MyThirdTest}=No, {testSuiteName=Register, testId=2, testCaseName=MySecondTest}=No, {testSuiteName=Register, testId=1, testCaseName=MyFirstTest}=Yes, {testSuiteName=Login, testId=4, testCaseName=Login001}=No}
+2023-07-09 19:17:29 INFO  DatabaseUtil:93 - Current Executing Test Case : Test ID: 1 || Test Suite: Register || Test Case: MyFirstTest
+2023-07-09 19:17:29 INFO  MyFirstTest:34 - Executing Test : MyFirstTest
+2023-07-09 19:17:39 INFO  DatabaseUtil:56 - Writting API Requests Responses to Database
+2023-07-09 19:17:40 ERROR DatabaseUtil:70 - Error occured while writing data to Database Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2023-07-09 19:24:15 INFO  DatabaseUtil:37 - Test Environment: dev
+2023-07-09 19:24:15 INFO  DatabaseUtil:48 - Test Scenario JSON URL: https://script.google.com/macros/s/AKfycbz5njC-TgjZTvq1zU0tvgOlcmFr28vEi69xOEM3KNlCXVlFt7Be65RvaxV_aevGSnbi/exec
+2023-07-09 19:24:19 INFO  DatabaseUtil:54 - Test Scenario JSON: {"data":[{"TestSuiteName":"Register","TestCaseName":"MyFirstTest","TestId":1,"Execute":"Yes"},{"TestSuiteName":"Register","TestCaseName":"MySecondTest","TestId":2,"Execute":"No"},{"TestSuiteName":"Register","TestCaseName":"MyThirdTest","TestId":3,"Execute":"No"},{"TestSuiteName":"Login","TestCaseName":"Login001","TestId":4,"Execute":"No"}]}
+2023-07-09 19:24:19 INFO  DatabaseUtil:61 - Total Number Of Test Cases: 4
+2023-07-09 19:24:19 INFO  DatabaseUtil:83 - Tests Cases Stored in HashMap: {{testSuiteName=Register, testId=3, testCaseName=MyThirdTest}=No, {testSuiteName=Register, testId=2, testCaseName=MySecondTest}=No, {testSuiteName=Register, testId=1, testCaseName=MyFirstTest}=Yes, {testSuiteName=Login, testId=4, testCaseName=Login001}=No}
+2023-07-09 19:24:19 INFO  DatabaseUtil:93 - Current Executing Test Case : Test ID: 1 || Test Suite: Register || Test Case: MyFirstTest
+2023-07-09 19:24:19 INFO  MyFirstTest:34 - Executing Test : MyFirstTest
+2023-07-09 19:24:29 INFO  DatabaseUtil:56 - Writting API Requests Responses to Database
+2023-07-09 19:24:29 ERROR DatabaseUtil:70 - Error occured while writing data to Database Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2023-07-09 19:43:02 INFO  DatabaseUtil:30 - Test Environment: dev
+2023-07-09 19:43:02 INFO  DatabaseUtil:41 - Test Scenario JSON URL: https://script.google.com/macros/s/AKfycbz5njC-TgjZTvq1zU0tvgOlcmFr28vEi69xOEM3KNlCXVlFt7Be65RvaxV_aevGSnbi/exec
+2023-07-09 19:43:05 INFO  DatabaseUtil:47 - Test Scenario JSON: {"data":[{"TestSuiteName":"Register","TestCaseName":"MyFirstTest","TestId":1,"Execute":"Yes"},{"TestSuiteName":"Register","TestCaseName":"MySecondTest","TestId":2,"Execute":"No"},{"TestSuiteName":"Register","TestCaseName":"MyThirdTest","TestId":3,"Execute":"No"},{"TestSuiteName":"Login","TestCaseName":"Login001","TestId":4,"Execute":"No"}]}
+2023-07-09 19:43:05 INFO  DatabaseUtil:54 - Total Number Of Test Cases: 4
+2023-07-09 19:43:05 INFO  DatabaseUtil:68 - Tests Cases Stored in HashMap: {Login001=No, MyThirdTest=No, MyFirstTest=Yes, MySecondTest=No}
+2023-07-09 19:43:05 INFO  DatabaseUtil:76 - Current Executing Test Case : MyFirstTest
+2023-07-09 19:43:05 INFO  MyFirstTest:34 - Executing Test : MyFirstTest
+2023-07-09 19:43:16 INFO  DatabaseUtil:56 - Writting API Requests Responses to Database
+2023-07-09 19:43:16 ERROR DatabaseUtil:70 - Error occured while writing data to Database Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2023-07-09 19:54:08 INFO  DatabaseUtil:36 - Test Execution ID: 2023-07-09-19-54-08
+2023-07-09 19:54:08 INFO  DatabaseUtil:39 - Test Environment: dev
+2023-07-09 19:54:08 INFO  DatabaseUtil:50 - Test Scenario JSON URL: https://script.google.com/macros/s/AKfycbz5njC-TgjZTvq1zU0tvgOlcmFr28vEi69xOEM3KNlCXVlFt7Be65RvaxV_aevGSnbi/exec
+2023-07-09 19:54:10 INFO  DatabaseUtil:56 - Test Scenario JSON: {"data":[{"TestSuiteName":"Register","TestCaseName":"MyFirstTest","TestId":1,"Execute":"Yes"},{"TestSuiteName":"Register","TestCaseName":"MySecondTest","TestId":2,"Execute":"No"},{"TestSuiteName":"Register","TestCaseName":"MyThirdTest","TestId":3,"Execute":"No"},{"TestSuiteName":"Login","TestCaseName":"Login001","TestId":4,"Execute":"No"}]}
+2023-07-09 19:54:10 INFO  DatabaseUtil:63 - Total Number Of Test Cases: 4
+2023-07-09 19:54:10 INFO  DatabaseUtil:77 - Tests Cases Stored in HashMap: {Login001=No, MyThirdTest=No, MyFirstTest=Yes, MySecondTest=No}
+2023-07-09 19:54:10 INFO  DatabaseUtil:85 - Current Executing Test Case : MyFirstTest
+2023-07-09 19:54:10 INFO  MyFirstTest:34 - Executing Test : MyFirstTest
+2023-07-09 19:54:23 INFO  DatabaseUtil:56 - Writting API Requests Responses to Database
+2023-07-09 19:54:24 ERROR DatabaseUtil:70 - Error occured while writing data to Database Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2023-07-09 19:58:30 INFO  DatabaseUtil:36 - Test Execution ID: 2023-07-09-19-58-30
+2023-07-09 19:58:30 INFO  DatabaseUtil:39 - Test Environment: dev
+2023-07-09 19:58:30 INFO  DatabaseUtil:50 - Test Scenario JSON URL: https://script.google.com/macros/s/AKfycbz5njC-TgjZTvq1zU0tvgOlcmFr28vEi69xOEM3KNlCXVlFt7Be65RvaxV_aevGSnbi/exec
+2023-07-09 19:58:33 INFO  DatabaseUtil:56 - Test Scenario JSON: {"data":[{"TestSuiteName":"Register","TestCaseName":"MyFirstTest","TestId":1,"Execute":"Yes"},{"TestSuiteName":"Register","TestCaseName":"MySecondTest","TestId":2,"Execute":"Yes"},{"TestSuiteName":"Register","TestCaseName":"MyThirdTest","TestId":3,"Execute":"No"},{"TestSuiteName":"Login","TestCaseName":"Login001","TestId":4,"Execute":"No"}]}
+2023-07-09 19:58:33 INFO  DatabaseUtil:63 - Total Number Of Test Cases: 4
+2023-07-09 19:58:33 INFO  DatabaseUtil:77 - Tests Cases Stored in HashMap: {Login001=No, MyThirdTest=No, MyFirstTest=Yes, MySecondTest=Yes}
+2023-07-09 19:58:33 INFO  DatabaseUtil:85 - Current Executing Test Case : MyFirstTest
+2023-07-09 19:58:33 INFO  MyFirstTest:34 - Executing Test : MyFirstTest
+2023-07-09 19:58:46 INFO  DatabaseUtil:56 - Writting API Requests Responses to Database
+2023-07-09 19:58:46 ERROR DatabaseUtil:70 - Error occured while writing data to Database Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2023-07-09 19:58:46 INFO  DatabaseUtil:85 - Current Executing Test Case : MySecondTest
+2023-07-09 19:58:46 INFO  MySecondTest:34 - Executing Test : MyFirstTest
+2023-07-09 19:58:56 INFO  DatabaseUtil:56 - Writting API Requests Responses to Database
+2023-07-09 19:58:56 ERROR DatabaseUtil:70 - Error occured while writing data to Database Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2023-07-10 08:13:20 INFO  DatabaseUtil:36 - Test Execution ID: 2023-07-10-08-13-20
+2023-07-10 08:13:20 INFO  DatabaseUtil:39 - Test Environment: dev
+2023-07-10 08:13:20 INFO  DatabaseUtil:50 - Test Scenario JSON URL: https://script.google.com/macros/s/AKfycbz5njC-TgjZTvq1zU0tvgOlcmFr28vEi69xOEM3KNlCXVlFt7Be65RvaxV_aevGSnbi/exec
+2023-07-10 08:13:25 INFO  DatabaseUtil:56 - Test Scenario JSON: {"data":[{"TestSuiteName":"Register","TestCaseName":"MyFirstTest","TestId":1,"Execute":"Yes"},{"TestSuiteName":"Register","TestCaseName":"MySecondTest","TestId":2,"Execute":"Yes"},{"TestSuiteName":"Register","TestCaseName":"MyThirdTest","TestId":3,"Execute":"No"},{"TestSuiteName":"Login","TestCaseName":"Login001","TestId":4,"Execute":"No"}]}
+2023-07-10 08:13:25 INFO  DatabaseUtil:63 - Total Number Of Test Cases: 4
+2023-07-10 08:13:25 INFO  DatabaseUtil:77 - Tests Cases Stored in HashMap: {Login001=No, MyThirdTest=No, MyFirstTest=Yes, MySecondTest=Yes}
+2023-07-10 08:13:25 INFO  DatabaseUtil:85 - Current Executing Test Case : MyFirstTest
+2023-07-10 08:25:08 INFO  DatabaseUtil:36 - Test Execution ID: 2023-07-10-08-25-08
+2023-07-10 08:25:08 INFO  DatabaseUtil:39 - Test Environment: dev
+2023-07-10 08:25:08 INFO  DatabaseUtil:50 - Test Scenario JSON URL: https://script.google.com/macros/s/AKfycbz5njC-TgjZTvq1zU0tvgOlcmFr28vEi69xOEM3KNlCXVlFt7Be65RvaxV_aevGSnbi/exec
+2023-07-10 08:25:12 INFO  DatabaseUtil:56 - Test Scenario JSON: {"data":[{"TestSuiteName":"Register","TestCaseName":"MyFirstTest","TestId":1,"Execute":"Yes"},{"TestSuiteName":"Register","TestCaseName":"MySecondTest","TestId":2,"Execute":"Yes"},{"TestSuiteName":"Register","TestCaseName":"MyThirdTest","TestId":3,"Execute":"No"},{"TestSuiteName":"Login","TestCaseName":"Login001","TestId":4,"Execute":"No"}]}
+2023-07-10 08:25:13 INFO  DatabaseUtil:63 - Total Number Of Test Cases: 4
+2023-07-10 08:25:13 INFO  DatabaseUtil:77 - Tests Cases Stored in HashMap: {Login001=No, MyThirdTest=No, MyFirstTest=Yes, MySecondTest=Yes}
+2023-07-10 08:25:13 INFO  DatabaseUtil:85 - Current Executing Test Case : MyFirstTest
+2023-07-10 08:25:13 INFO  MyFirstTest:35 - Executing Test : MyFirstTest
+2023-07-10 08:25:26 INFO  DatabaseUtil:56 - Writting API Requests Responses to Database
+2023-07-10 08:25:26 INFO  DatabaseUtil:85 - Current Executing Test Case : MySecondTest
+2023-07-10 08:25:26 INFO  MySecondTest:35 - Executing Test : MyFirstTest
+2023-07-10 08:25:37 INFO  DatabaseUtil:56 - Writting API Requests Responses to Database
+2023-07-10 10:16:11 INFO  DatabaseUtil:36 - Test Execution ID: 2023-07-10-10-16-11
+2023-07-10 10:16:11 INFO  DatabaseUtil:39 - Test Environment: dev
+2023-07-10 10:16:11 INFO  DatabaseUtil:50 - Test Scenario JSON URL: https://script.google.com/macros/s/AKfycbz5njC-TgjZTvq1zU0tvgOlcmFr28vEi69xOEM3KNlCXVlFt7Be65RvaxV_aevGSnbi/exec
+2023-07-10 10:16:14 INFO  DatabaseUtil:56 - Test Scenario JSON: {"data":[{"TestSuiteName":"Register","TestCaseName":"MyFirstTest","TestId":1,"Execute":"Yes"},{"TestSuiteName":"Register","TestCaseName":"MySecondTest","TestId":2,"Execute":"Yes"},{"TestSuiteName":"Register","TestCaseName":"MyThirdTest","TestId":3,"Execute":"No"},{"TestSuiteName":"Login","TestCaseName":"Login001","TestId":4,"Execute":"No"}]}
+2023-07-10 10:16:14 INFO  DatabaseUtil:63 - Total Number Of Test Cases: 4
+2023-07-10 10:16:14 INFO  DatabaseUtil:77 - Tests Cases Stored in HashMap: {Login001=No, MyThirdTest=No, MyFirstTest=Yes, MySecondTest=Yes}
+2023-07-10 10:16:14 INFO  DatabaseUtil:85 - Current Executing Test Case : MyFirstTest
+2023-07-10 10:16:14 INFO  MyFirstTest:35 - Executing Test : MyFirstTest
+2023-07-10 10:16:27 INFO  DatabaseUtil:56 - Writting API Requests Responses to Database
+2023-07-10 10:16:27 INFO  DatabaseUtil:85 - Current Executing Test Case : MySecondTest
+2023-07-10 10:16:27 INFO  MySecondTest:35 - Executing Test : MyFirstTest
+2023-07-10 10:16:35 INFO  DatabaseUtil:56 - Writting API Requests Responses to Database
+2023-07-10 18:05:14 INFO  DatabaseUtil:36 - Test Execution ID: 2023-07-10-18-05-14
+2023-07-10 18:05:14 INFO  DatabaseUtil:39 - Test Environment: dev
+2023-07-10 18:05:14 INFO  DatabaseUtil:50 - Test Scenario JSON URL: https://script.google.com/macros/s/AKfycbz5njC-TgjZTvq1zU0tvgOlcmFr28vEi69xOEM3KNlCXVlFt7Be65RvaxV_aevGSnbi/exec
+2023-07-10 18:05:16 INFO  DatabaseUtil:56 - Test Scenario JSON: {"data":[{"TestSuiteName":"Register","TestCaseName":"MyFirstTest","TestId":1,"Execute":"Yes"},{"TestSuiteName":"Register","TestCaseName":"MySecondTest","TestId":2,"Execute":"Yes"},{"TestSuiteName":"Register","TestCaseName":"MyThirdTest","TestId":3,"Execute":"No"},{"TestSuiteName":"Login","TestCaseName":"Login001","TestId":4,"Execute":"No"}]}
+2023-07-10 18:05:17 INFO  DatabaseUtil:63 - Total Number Of Test Cases: 4
+2023-07-10 18:05:17 INFO  DatabaseUtil:77 - Tests Cases Stored in HashMap: {Login001=No, MyThirdTest=No, MyFirstTest=Yes, MySecondTest=Yes}
+2023-07-10 18:05:17 INFO  DatabaseUtil:85 - Current Executing Test Case : MyFirstTest
+2023-07-10 18:05:17 INFO  MyFirstTest:35 - Executing Test : MyFirstTest
+2023-07-10 18:05:27 INFO  DatabaseUtil:56 - Writting API Requests Responses to Database
+2023-07-10 18:05:27 INFO  DatabaseUtil:85 - Current Executing Test Case : MySecondTest
+2023-07-10 18:05:27 INFO  MySecondTest:35 - Executing Test : MySecondTest
+2023-07-10 18:05:35 INFO  DatabaseUtil:56 - Writting API Requests Responses to Database
+2023-07-11 08:30:49 INFO  DatabaseUtil:36 - Test Execution ID: 2023-07-11-08-30-49
+2023-07-11 08:30:49 INFO  DatabaseUtil:39 - Test Environment: dev
+2023-07-11 08:30:49 INFO  DatabaseUtil:50 - Test Scenario JSON URL: https://script.google.com/macros/s/AKfycbz5njC-TgjZTvq1zU0tvgOlcmFr28vEi69xOEM3KNlCXVlFt7Be65RvaxV_aevGSnbi/exec
+2023-07-11 08:30:54 INFO  DatabaseUtil:56 - Test Scenario JSON: {"data":[{"TestSuiteName":"Register","TestCaseName":"MyFirstTest","TestId":1,"Execute":"Yes"},{"TestSuiteName":"Register","TestCaseName":"MySecondTest","TestId":2,"Execute":"Yes"},{"TestSuiteName":"Register","TestCaseName":"MyThirdTest","TestId":3,"Execute":"No"},{"TestSuiteName":"Login","TestCaseName":"Login001","TestId":4,"Execute":"No"}]}
+2023-07-11 08:30:54 INFO  DatabaseUtil:63 - Total Number Of Test Cases: 4
+2023-07-11 08:30:54 INFO  DatabaseUtil:77 - Tests Cases Stored in HashMap: {Login001=No, MyThirdTest=No, MyFirstTest=Yes, MySecondTest=Yes}
+2023-07-11 08:30:54 INFO  DatabaseUtil:85 - Current Executing Test Case : MyFirstTest
+2023-07-11 08:30:54 INFO  MyFirstTest:35 - Executing Test : MyFirstTest
+2023-07-11 08:31:08 INFO  DatabaseUtil:56 - Writting API Requests Responses to Database
+2023-07-11 08:31:09 INFO  DatabaseUtil:85 - Current Executing Test Case : MySecondTest
+2023-07-11 08:31:09 INFO  MySecondTest:35 - Executing Test : MySecondTest
+2023-07-11 08:31:18 INFO  DatabaseUtil:56 - Writting API Requests Responses to Database
+2023-07-11 18:06:33 INFO  DatabaseUtil:36 - Test Execution ID: 2023-07-11-18-06-33
+2023-07-11 18:06:33 INFO  DatabaseUtil:39 - Test Environment: dev
+2023-07-11 18:06:33 INFO  DatabaseUtil:50 - Test Scenario JSON URL: https://script.google.com/macros/s/AKfycbz5njC-TgjZTvq1zU0tvgOlcmFr28vEi69xOEM3KNlCXVlFt7Be65RvaxV_aevGSnbi/exec
+2023-07-11 18:06:35 INFO  DatabaseUtil:56 - Test Scenario JSON: {"data":[{"TestSuiteName":"Register","TestCaseName":"MyFirstTest","TestId":1,"Execute":"Yes"},{"TestSuiteName":"Register","TestCaseName":"MySecondTest","TestId":2,"Execute":"Yes"},{"TestSuiteName":"Register","TestCaseName":"MyThirdTest","TestId":3,"Execute":"No"},{"TestSuiteName":"Login","TestCaseName":"Login001","TestId":4,"Execute":"No"}]}
+2023-07-11 18:06:35 INFO  DatabaseUtil:63 - Total Number Of Test Cases: 4
+2023-07-11 18:06:35 INFO  DatabaseUtil:77 - Tests Cases Stored in HashMap: {Login001=No, MyThirdTest=No, MyFirstTest=Yes, MySecondTest=Yes}
+2023-07-11 18:06:35 INFO  DatabaseUtil:85 - Current Executing Test Case : MyFirstTest
+2023-07-11 18:06:35 INFO  MyFirstTest:35 - Executing Test : MyFirstTest
+2023-07-11 18:06:46 INFO  DatabaseUtil:56 - Writting API Requests Responses to Database
+2023-07-11 18:06:47 INFO  DatabaseUtil:85 - Current Executing Test Case : MySecondTest
+2023-07-11 18:06:47 INFO  MySecondTest:35 - Executing Test : MySecondTest
+2023-07-11 18:06:56 INFO  DatabaseUtil:56 - Writting API Requests Responses to Database
+2023-07-11 18:11:46 INFO  DatabaseUtil:36 - Test Execution ID: 2023-07-11-18-11-46
+2023-07-11 18:11:46 INFO  DatabaseUtil:39 - Test Environment: dev
+2023-07-11 18:11:46 INFO  DatabaseUtil:50 - Test Scenario JSON URL: https://script.google.com/macros/s/AKfycbz5njC-TgjZTvq1zU0tvgOlcmFr28vEi69xOEM3KNlCXVlFt7Be65RvaxV_aevGSnbi/exec
+2023-07-11 18:11:49 INFO  DatabaseUtil:56 - Test Scenario JSON: {"data":[{"TestSuiteName":"Register","TestCaseName":"MyFirstTest","TestId":1,"Execute":"Yes"},{"TestSuiteName":"Register","TestCaseName":"MySecondTest","TestId":2,"Execute":"Yes"},{"TestSuiteName":"Register","TestCaseName":"MyThirdTest","TestId":3,"Execute":"No"},{"TestSuiteName":"Login","TestCaseName":"Login001","TestId":4,"Execute":"No"}]}
+2023-07-11 18:11:49 INFO  DatabaseUtil:63 - Total Number Of Test Cases: 4
+2023-07-11 18:11:49 INFO  DatabaseUtil:77 - Tests Cases Stored in HashMap: {Login001=No, MyThirdTest=No, MyFirstTest=Yes, MySecondTest=Yes}
+2023-07-11 18:11:49 INFO  DatabaseUtil:85 - Current Executing Test Case : MyFirstTest
+2023-07-11 18:11:49 INFO  MyFirstTest:35 - Executing Test : MyFirstTest
+2023-07-11 18:12:00 INFO  DatabaseUtil:56 - Writting API Requests Responses to Database
+2023-07-11 18:12:00 INFO  DatabaseUtil:85 - Current Executing Test Case : MySecondTest
+2023-07-11 18:12:00 INFO  MySecondTest:35 - Executing Test : MySecondTest
+2023-07-11 18:12:09 INFO  DatabaseUtil:56 - Writting API Requests Responses to Database
+2023-07-11 18:26:33 INFO  DatabaseUtil:36 - Test Execution ID: 2023-07-11-18-26-33
+2023-07-11 18:26:33 INFO  DatabaseUtil:39 - Test Environment: dev
+2023-07-11 18:26:33 INFO  DatabaseUtil:50 - Test Scenario JSON URL: https://script.google.com/macros/s/AKfycbz5njC-TgjZTvq1zU0tvgOlcmFr28vEi69xOEM3KNlCXVlFt7Be65RvaxV_aevGSnbi/exec
+2023-07-11 18:26:36 INFO  DatabaseUtil:56 - Test Scenario JSON: {"data":[{"TestSuiteName":"Register","TestCaseName":"MyFirstTest","TestId":1,"Execute":"Yes"},{"TestSuiteName":"Register","TestCaseName":"MySecondTest","TestId":2,"Execute":"Yes"},{"TestSuiteName":"Register","TestCaseName":"MyThirdTest","TestId":3,"Execute":"No"},{"TestSuiteName":"Login","TestCaseName":"Login001","TestId":4,"Execute":"No"}]}
+2023-07-11 18:26:37 INFO  DatabaseUtil:63 - Total Number Of Test Cases: 4
+2023-07-11 18:26:37 INFO  DatabaseUtil:77 - Tests Cases Stored in HashMap: {Login001=No, MyThirdTest=No, MyFirstTest=Yes, MySecondTest=Yes}
+2023-07-11 18:26:37 INFO  DatabaseUtil:85 - Current Executing Test Case : MyFirstTest
+2023-07-11 18:26:37 INFO  MyFirstTest:35 - Executing Test : MyFirstTest
+2023-07-11 18:26:47 INFO  DatabaseUtil:56 - Writting API Requests Responses to Database
+2023-07-11 18:26:48 INFO  DatabaseUtil:85 - Current Executing Test Case : MySecondTest
+2023-07-11 18:26:48 INFO  MySecondTest:35 - Executing Test : MySecondTest
+2023-07-11 18:26:58 INFO  DatabaseUtil:56 - Writting API Requests Responses to Database

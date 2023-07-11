@@ -1,0 +1,6 @@
+#surefire_0
+#Tue Jul 11 18:26:32 ICT 2023
+exec.classpathScope=test
+exec.cleanupDaemonThreads=false
+localRepository=/Users/harshalshewale/.m2/repository
+basedir=/Users/harshalshewale/eclipse-workspace/AnzarulWebAppTestProject

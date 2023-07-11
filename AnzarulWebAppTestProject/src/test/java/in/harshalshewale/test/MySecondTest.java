@@ -6,17 +6,19 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import in.harshalshewale.driver.Driver;
 import in.harshalshewale.util.DatabaseUtil;
 import in.harshalshewale.util.FileUtil;
 import in.harshalshewale.util.JsonUtil;
+import in.harshalshewale.util.TestUtil;
 
 public class MySecondTest extends BaseTest {
 
 	private static final Logger LOGGER = Logger.getLogger(MySecondTest.class);
 
-	private static int TEST_ID = 001;
+	private static int TEST_ID = 002;
 	private static String TEST_SUITE_NAME = "Register";
-	private static String TEST_CASE_NAME = "MyFirstTest";
+	private static String TEST_CASE_NAME = "MySecondTest";
 	private static String TEST_DESCRIPTION = "Register user with valid data";
 
 	public MySecondTest() {
@@ -30,7 +32,7 @@ public class MySecondTest extends BaseTest {
 
 		try {
 
-			LOGGER.info("Executing Test : MyFirstTest");
+			LOGGER.info("Executing Test : MySecondTest");
 
 			// Get Test Date for test case
 			String testDataFile = JsonUtil.readTestDataJsonFile("MyFirstTest.json");
@@ -46,11 +48,13 @@ public class MySecondTest extends BaseTest {
 			// Get title of page
 			String title = driver.getTitle();
 			assertEquals("Web form", title);
+			TestUtil.takeScreenShot(driver, TEST_CASE_NAME + "_home_page_title.png");
 
 			// Fill the form (Register User)
 			String myTextIdLocator = FileUtil.readLocators("homePage", "home.id.myTextId");
 			String myTextIdTestData = JsonUtil.getJsonValue(testDataFile, "$.data[0].textInput");
 			driver.findElement(By.id(myTextIdLocator)).sendKeys(myTextIdTestData);
+			TestUtil.takeScreenShot(driver, TEST_CASE_NAME + "_register_user_home_page.png");
 
 			String passwordLocator = FileUtil.readLocators("homePage", "home.name.password");
 			String passwordTestData = JsonUtil.getJsonValue(testDataFile, "$.data[0].password");
@@ -59,10 +63,12 @@ public class MySecondTest extends BaseTest {
 			driver.quit();
 
 			// write result in to database
-			DatabaseUtil.insertTestResult(TEST_SUITE_NAME, TEST_ID, TEST_CASE_NAME, "PASS", "No Comment");
+			DatabaseUtil.insertTestResult(Driver.testExecutionID, TEST_SUITE_NAME, TEST_ID, TEST_CASE_NAME, "PASS",
+					"No Comment");
 
 		} catch (Exception e) {
-			DatabaseUtil.insertTestResult(TEST_SUITE_NAME, TEST_ID, TEST_CASE_NAME, "FAIL", e.getMessage());
+			DatabaseUtil.insertTestResult(Driver.testExecutionID, TEST_SUITE_NAME, TEST_ID, TEST_CASE_NAME, "FAIL",
+					e.getMessage());
 			e.printStackTrace();
 		}
 

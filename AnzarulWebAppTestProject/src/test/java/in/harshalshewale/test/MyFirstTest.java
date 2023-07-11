@@ -6,9 +6,11 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import in.harshalshewale.driver.Driver;
 import in.harshalshewale.util.DatabaseUtil;
 import in.harshalshewale.util.FileUtil;
 import in.harshalshewale.util.JsonUtil;
+import in.harshalshewale.util.TestUtil;
 
 public class MyFirstTest extends BaseTest {
 
@@ -45,7 +47,8 @@ public class MyFirstTest extends BaseTest {
 
 			// Get title of page
 			String title = driver.getTitle();
-			assertEquals("Web formss", title);
+			assertEquals("Web form", title);
+			TestUtil.takeScreenShot(driver, TEST_CASE_NAME + "_home_page_title.png");
 
 			// Fill the form (Register User)
 			String myTextIdLocator = FileUtil.readLocators("homePage", "home.id.myTextId");
@@ -55,19 +58,23 @@ public class MyFirstTest extends BaseTest {
 			String passwordLocator = FileUtil.readLocators("homePage", "home.name.password");
 			String passwordTestData = JsonUtil.getJsonValue(testDataFile, "$.data[0].password");
 			driver.findElement(By.name(passwordLocator)).sendKeys(passwordTestData);
+			TestUtil.takeScreenShot(driver, TEST_CASE_NAME + "_register_user_form.png");
 
 			driver.quit();
 
 			// write result in to database
-			DatabaseUtil.insertTestResult(TEST_SUITE_NAME, TEST_ID, TEST_CASE_NAME, "PASS", "No Comment");
+			DatabaseUtil.insertTestResult(Driver.testExecutionID, TEST_SUITE_NAME, TEST_ID, TEST_CASE_NAME, "PASS",
+					"No Comment");
 
 		} catch (Exception e) {
 			driver.quit();
-			DatabaseUtil.insertTestResult(TEST_SUITE_NAME, TEST_ID, TEST_CASE_NAME, "FAIL", e.getMessage());
+			DatabaseUtil.insertTestResult(Driver.testExecutionID, TEST_SUITE_NAME, TEST_ID, TEST_CASE_NAME, "FAIL",
+					e.getMessage());
 			e.printStackTrace();
 		} catch (AssertionError a) {
 			driver.quit();
-			DatabaseUtil.insertTestResult(TEST_SUITE_NAME, TEST_ID, TEST_CASE_NAME, "FAIL", a.getMessage());
+			DatabaseUtil.insertTestResult(Driver.testExecutionID, TEST_SUITE_NAME, TEST_ID, TEST_CASE_NAME, "FAIL",
+					a.getMessage());
 			a.printStackTrace();
 		}
 

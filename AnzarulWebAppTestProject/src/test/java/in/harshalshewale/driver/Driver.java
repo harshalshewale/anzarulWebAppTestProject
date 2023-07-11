@@ -2,6 +2,8 @@ package in.harshalshewale.driver;
 
 import java.lang.reflect.Method;
 import java.net.URL;
+import java.sql.Timestamp;
+import java.text.SimpleDateFormat;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -13,11 +15,14 @@ import in.harshalshewale.util.JsonUtil;
 
 public class Driver {
 
-	private static final Logger LOGGER = Logger.getLogger(DatabaseUtil.class);
+	public static String testExecutionID = null;
+	public static String TestSecnarioURL = null;
+	public static String environment = null;
+	public static String testCaseName = null;
+	public static String executeMode = null;
 
-	public static String currentTestSuite;
-	public static String currentTestCase;
-	public static String currentTestId;
+	private static final Logger LOGGER = Logger.getLogger(DatabaseUtil.class);
+	private static final SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd-HH-mm-ss");
 
 	public static void main(String[] args) throws Exception {
 		executeTests();
@@ -25,13 +30,10 @@ public class Driver {
 
 	public static void executeTests() throws Exception {
 
-		// Read Test Environment
-		String TestSecnarioURL = null;
-		String environment = null;
-		String testSuiteName = null;
-		String testCaseName = null;
-		String testId = null;
-		String executeMode = null;
+		// Create Execution ID with current time stamp
+		Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+		testExecutionID = dateFormat.format(timestamp);
+		LOGGER.info("Test Execution ID: " + testExecutionID);
 
 		environment = FileUtil.readPropertyFile("test", "environment");
 		LOGGER.info("Test Environment: " + environment);
@@ -60,21 +62,13 @@ public class Driver {
 
 		LOGGER.info("Total Number Of Test Cases: " + totalNumberOfTestCasesInInt);
 
-		Map<Map<String, String>, String> tests = new HashMap<Map<String, String>, String>();
+		Map<String, String> tests = new HashMap<String, String>();
 
 		for (int i = 0; i < totalNumberOfTestCasesInInt; i++) {
 
-			testSuiteName = JsonUtil.getJsonValue(testSecnarioJson, "$.data[" + i + "].TestSuiteName");
 			testCaseName = JsonUtil.getJsonValue(testSecnarioJson, "$.data[" + i + "].TestCaseName");
-			testId = JsonUtil.getJsonValue(testSecnarioJson, "$.data[" + i + "].TestId");
 			executeMode = JsonUtil.getJsonValue(testSecnarioJson, "$.data[" + i + "].Execute");
-
-			Map<String, String> testDetails = new HashMap<String, String>();
-			testDetails.put("testSuiteName", testSuiteName);
-			testDetails.put("testCaseName", testCaseName);
-			testDetails.put("testId", testId);
-
-			tests.put(testDetails, executeMode);
+			tests.put(testCaseName, executeMode);
 
 		}
 
@@ -82,16 +76,13 @@ public class Driver {
 
 		LOGGER.info("Tests Cases Stored in HashMap: " + tests);
 
-		for (Map.Entry<Map<String, String>, String> testToRun : tests.entrySet()) {
+		for (Map.Entry<String, String> testToRun : tests.entrySet()) {
 
 			if (testToRun.getValue().equalsIgnoreCase("yes")) {
 
-				currentTestSuite = testToRun.getKey().get("testSuiteName");
-				currentTestCase = testToRun.getKey().get("testCaseName");
-				currentTestId = testToRun.getKey().get("testId");
+				String currentTestCase = testToRun.getKey();
 
-				LOGGER.info("Current Executing Test Case : " + "Test ID: " + currentTestId + " || " + "Test Suite: "
-						+ currentTestSuite + " || " + "Test Case: " + currentTestCase);
+				LOGGER.info("Current Executing Test Case : " + currentTestCase);
 
 				// java reflection
 				Class<?> clazz = Class.forName("in.harshalshewale.test." + currentTestCase);
